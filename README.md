@@ -7,6 +7,7 @@ To enter the development shell after `nix flake init`:
 nix development --command $SHELL
 ```
 
-| **Template** |                       **Command**                   |
-|--------------|:---------------------------------------------------:|
-| go           | nix flake init -t github:cesarfuhr/dev-templates#go |
+| **Template** |                       **Command**                     |
+|--------------|:-----------------------------------------------------:|
+| go           | nix flake init -t github:cesarfuhr/dev-templates#go   |
+| rust         | nix flake init -t github:cesarfuhr/dev-templates#rust |
