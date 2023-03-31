@@ -3,9 +3,13 @@
 
   outputs = { self }: {
     templates = {
-      go = {
-        path = ./go;
-        description = "a basic go environment";
+      go_1_20 = {
+        path = ./go/go_1_20;
+        description = "a basic go 1.20 environment";
+      };
+      go_1_16 = {
+        path = ./go/go_1_16;
+        description = "a basic go 1.16 environment";
       };
       rust = {
         path = ./rust;
