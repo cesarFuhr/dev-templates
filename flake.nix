@@ -11,6 +11,10 @@
         path = ./go/go_1_16;
         description = "a basic go 1.16 environment";
       };
+      node_14 = {
+        path = ./node/node_14;
+        description = "a basic node 14.x environment";
+      };
       rust = {
         path = ./rust;
         description = "a basic rust environment";

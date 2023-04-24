@@ -18,7 +18,9 @@ After storing a first time, you can run the stored profile with:
 nix develop /tmp/${${PWD//\//:}:1} --command $SHELL
 ```
 
-| **Template** |                       **Command**                     |
-|--------------|:-----------------------------------------------------:|
-| go           | nix flake init -t github:cesarfuhr/dev-templates#go   |
-| rust         | nix flake init -t github:cesarfuhr/dev-templates#rust |
+| **Template** |                       **Command**                          |
+|--------------|:----------------------------------------------------------:|
+| go 1.16      | nix flake init -t github:cesarfuhr/dev-templates#go_1_16   |
+| go 1.20      | nix flake init -t github:cesarfuhr/dev-templates#go_1_20   |
+| node 14_x    | nix flake init -t github:cesarfuhr/dev-templates#node_14   |
+| rust         | nix flake init -t github:cesarfuhr/dev-templates#rust      |
